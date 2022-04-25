@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 
-const useScript = (url, attribute, value) => {
+const useScript = (url) => {
   useEffect(() => {
     const script = document.createElement('script');
     script.src = url;
     script.async = true;
-    script.setAttribute(attribute, value)
+    //script.setAttribute(attribute, value)
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
