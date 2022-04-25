@@ -11,6 +11,9 @@ const App = () => {
   return (
     <main>
       <Sidebar />
+      <div className="main-content">
+        
+      </div>
     </main>
   );
 };
