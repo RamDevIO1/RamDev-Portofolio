@@ -4,6 +4,7 @@ import './App.css';
 
 import Sidebar from './components/Sidebar/sidebar.jsx'
 import Navbar from './components/Navbar/navbar.jsx'
+import About from './components/About/about.jsx'
 
 const App = () => {
   useScript('https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js', 'type', 'module')
@@ -14,6 +15,7 @@ const App = () => {
       <Sidebar />
       <div className="main-content">
         <Navbar />
+        <About />
       </div>
     </main>
   );
