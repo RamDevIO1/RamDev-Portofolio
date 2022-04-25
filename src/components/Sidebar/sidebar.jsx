@@ -1,4 +1,4 @@
-import avatar from '../assets/images/my-avatar.png';
+import avatar from '../../assets/images/my-avatar.png';
 import './sidebar.css';
 
 const Sidebar = () => {
