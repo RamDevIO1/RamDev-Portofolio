@@ -6,9 +6,9 @@ const App = () => {
   useScript('https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js', 'module')
   React.useEffect(() => {
     const script2 = document.createElement('script');
-    script2.src = 'url';
+    script2.src = 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js';
     script2.async = true;
-    script2.setAttribute('nomodule', 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js')
+    script2.setAttribute('nomodule', '')
     document.body.appendChild(script2);
     return () => {
       document.body.removeChild(script2);
