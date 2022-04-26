@@ -1,12 +1,16 @@
 import React from 'react'
 import './about.css'
 
+import img1 from './assets/images/icon-design.svg'
+import img2 from './assets/images/icon-dev.svg'
+import img3 from './assets/images/icon-app.svg'
+
 const About = () => {
-  
+
   React.useEffect(() => {
-    
+
   }, [])
-  
+
   return (
     <article className="about  active" data-page="about">
       <header>
@@ -20,6 +24,66 @@ const About = () => {
           I From Indonesia
         </p>
       </section>
+      
+      <section className="skill">
+          <h3 className="h3 skills-title">My skills</h3>
+          <ul className="skills-list content-card">
+            
+            <li className="skills-item">
+              <div className="title-wrapper">
+                <h5 className="h5">Web design</h5>
+                <data value="50">50%</data>
+              </div>
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+            
+            <li className="skills-item">
+              <div className="title-wrapper">
+                <h5 className="h5">Html</h5>
+                <data value="80">80%</data>
+              </div>
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li className="skills-item">
+              <div className="title-wrapper">
+                <h5 className="h5">Javascript</h5>
+                <data value="75">75%</data>
+              </div>
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+            <li className="skills-item">
+              <div className="title-wrapper">
+                <h5 className="h5">Css</h5>
+                <data value="56">56%</data>
+              </div>
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style="width: 56%;"></div>
+              </div>
+            </li>
+            
+            <li className="skills-item">
+              <div className="title-wrapper">
+                <h5 className="h5">ReactJs</h5>
+                <data value="25">25%</data>
+              </div>
+              <div className="skill-progress-bg">
+                <div className="skill-progress-fill" style="width: 25%;"></div>
+              </div>
+            </li>
+            
+          </ul>
+
+        </section>
+
+      
     </article>
   )
 };
