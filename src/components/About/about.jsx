@@ -28,7 +28,7 @@ const About = () => {
             <li className="skills-item">
               <div className="title-wrapper">
                 <h5 className="h5">Web design</h5>
-                <data value="50">50%</data>
+                <data>50%</data>
               </div>
               <div className="skill-progress-bg">
                 <div className="skill-progress-fill" style="width: 50%;"></div>
@@ -38,7 +38,7 @@ const About = () => {
             <li className="skills-item">
               <div className="title-wrapper">
                 <h5 className="h5">Html</h5>
-                <data value="80">80%</data>
+                <data>80%</data>
               </div>
               <div className="skill-progress-bg">
                 <div className="skill-progress-fill" style="width: 80%;"></div>
@@ -48,7 +48,7 @@ const About = () => {
             <li className="skills-item">
               <div className="title-wrapper">
                 <h5 className="h5">Javascript</h5>
-                <data value="75">75%</data>
+                <data>75%</data>
               </div>
               <div className="skill-progress-bg">
                 <div className="skill-progress-fill" style="width: 75%;"></div>
@@ -58,7 +58,7 @@ const About = () => {
             <li className="skills-item">
               <div className="title-wrapper">
                 <h5 className="h5">Css</h5>
-                <data value="56">56%</data>
+                <data>56%</data>
               </div>
               <div className="skill-progress-bg">
                 <div className="skill-progress-fill" style="width: 56%;"></div>
@@ -68,7 +68,7 @@ const About = () => {
             <li className="skills-item">
               <div className="title-wrapper">
                 <h5 className="h5">ReactJs</h5>
-                <data value="25">25%</data>
+                <data>25%</data>
               </div>
               <div className="skill-progress-bg">
                 <div className="skill-progress-fill" style="width: 25%;"></div>
