@@ -1,10 +1,6 @@
 import React from 'react'
 import './about.css'
 
-import img1 from './assets/images/icon-design.svg'
-import img2 from './assets/images/icon-dev.svg'
-import img3 from './assets/images/icon-app.svg'
-
 const About = () => {
 
   React.useEffect(() => {
