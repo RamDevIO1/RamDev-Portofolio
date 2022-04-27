@@ -5,10 +5,10 @@ import './portfolio.css';
 import { projects } from '../../hooks/hooks.js'
 
 const Portfolio = () => {
-
+/*
   React.useEffect(() => {
 
-      const elementToggleFunc = function(elem) { elem.classList.toggle("active"); }
+const elementToggleFunc = function(elem) { elem.classList.toggle("active"); }
 
 // custom select variables
 const select = document.querySelector("[data-select]");
@@ -53,8 +53,8 @@ for (let i = 0; i < filterBtn.length; i++) {
   });
 }
 
-  })
-
+  }, [])
+*/
   return (
     <article className="portfolio" data-page="portfolio">
       <header>
@@ -105,7 +105,7 @@ for (let i = 0; i < filterBtn.length; i++) {
             projects.map((data, id) => {
               return (
                 <li className="project-item  active" data-filter-item data-category={ data.category }>
-                  <a href="#">
+                  <a href={ dat.link }>
                     <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline"></ion-icon>
