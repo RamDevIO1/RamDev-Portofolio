@@ -105,7 +105,7 @@ for (let i = 0; i < filterBtn.length; i++) {
             projects.map((data, id) => {
               return (
                 <li className="project-item  active" data-filter-item data-category={ data.category }>
-                  <a href={ dat.link }>
+                  <a href={ data.link }>
                     <figure className="project-img">
                       <div className="project-item-icon-box">
                         <ion-icon name="eye-outline"></ion-icon>
