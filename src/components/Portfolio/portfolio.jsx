@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './portfolio.css';
+import '../../Responsive.css';
+
 
 import { projects } from '../../hooks/hooks.js'
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import useScript from './hooks/useScript.js'
 import './App.css';
-//import './Responsive.css';
+import './Responsive.css';
 
 import Sidebar from './components/Sidebar/sidebar.jsx'
 import Navbar from './components/Navbar/navbar.jsx'
