@@ -1,7 +1,6 @@
 import React from 'react'
 import avatar from '../../assets/images/my-avatar.png';
 import './sidebar.css';
-import '../../Responsive.css';
 
 const Sidebar = () => {
 
