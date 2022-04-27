@@ -8,6 +8,7 @@ const Portfolio = () => {
 
   React.useEffect(() => {
 
+      const elementToggleFunc = function(elem) { elem.classList.toggle("active"); }
 
 // custom select variables
 const select = document.querySelector("[data-select]");
