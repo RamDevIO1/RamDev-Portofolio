@@ -2,25 +2,25 @@ export const projects = [
   {
     title: "Coming Soon",
     category: "none",
-    image: "../../assets/images/project-8.jpg",
+    image: "/coming-soon.png",
     link: ""
   },
   {
     title: "Coming Soon",
     category: "none",
-    image: "../../assets/images/coming-soon.png",
+    image: "/coming-soon.png",
     link: ""
   },
   {
     title: "Coming Soon",
     category: "none",
-    image: "../../assets/images/coming-soon.png",
+    image: "/coming-soon.png",
     link: ""
   },
   {
     title: "Coming Soon",
     category: "none",
-    image: "../../assets/images/coming-soon.png",
+    image: "/coming-soon.png",
     link: ""
-  }
+  },
 ]
